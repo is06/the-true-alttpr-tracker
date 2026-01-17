@@ -1,7 +1,9 @@
+import ItemTracker from './components/ItemTracker'
+
 function App() {
   return (
     <>
-      <p>alttpr</p>
+      <ItemTracker />
     </>
   )
 }

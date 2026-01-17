@@ -1,0 +1,22 @@
+.container {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.image {
+  display: block;
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.disabled {
+  opacity: 35%;
+  filter: grayscale(100%);
+}
